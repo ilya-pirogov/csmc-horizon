@@ -1,0 +1,231 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "minecraft:textures/gui/title/minecraft.png",
+            "posX" : -178,
+            "posY" : 14,
+            "width" : 612,
+            "height" : 612,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : " ",
+			"texture" : "minecraft:textures/gui/title/singlebg.png",
+			"normalTextColor" : 16386560,
+			"hoverTextColor" : 16777215,
+			"imageWidth" : 400,
+			"imageHeight" : 40,
+            "posX" : -100,
+            "posY" : 28,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : " ",
+			"texture" : "minecraft:textures/gui/title/multibg.png",
+			"normalTextColor" : 16386560,
+			"hoverTextColor" : 16777215,
+			"imageWidth" : 400,
+			"imageHeight" : 40,
+            "posX" : -100,
+            "posY" : 52,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : " ",
+			"texture" : "minecraft:textures/gui/title/modsbg.png",
+			"normalTextColor" : 16386560,
+			"hoverTextColor" : 16777215,
+			"imageWidth" : 400,
+			"imageHeight" : 40,
+            "posX" : -100,
+            "posY" : 76,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : " ",
+			"texture" : "minecraft:textures/gui/title/optionsbg.png",
+			"normalTextColor" : 16386560,
+			"hoverTextColor" : 16777215,
+			"imageWidth" : 196,
+			"imageHeight" : 40,
+            "posX" : -100,
+            "posY" : 136,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : " ",
+			"texture" : "minecraft:textures/gui/title/exitbg.png",
+			"normalTextColor" : 16386560,
+			"hoverTextColor" : 16777215,
+			"imageWidth" : 196,
+			"imageHeight" : 40,
+            "posX" : 2,
+            "posY" : 136,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 112,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -9154,
+            "posY" : 112,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+		
+        "youtube":
+        {
+            "text" : " ",
+			"texture" : "minecraft:textures/gui/title/youtubebg.png",
+			"imageWidth" : 196,
+			"imageHeight" : 40,
+            "posX" : -100,
+            "posY" : 112,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                                "link" : "http://youtube.com/minecraftukraine"
+            }
+        },
+		
+        "vkontakte":
+        {
+            "text" : " ",
+			"texture" : "minecraft:textures/gui/title/vkbg.png",
+			"imageWidth" : 196,
+			"imageHeight" : 40,
+            "posX" : 2,
+            "posY" : 112,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                                "link" : "http://vk.com/craftshowgames"
+            }
+        }
+		
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "horizon":
+        {
+            "text" : "HORIZON Modpack by CraftShow",
+            "posX" : 2,
+            "posY" :  -20,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+	
+        "mjramon":
+        {
+            "text" : "Music & design by MJRamon",
+            "posX" : 2,
+            "posY" :  -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 150,
+            "posY" : 90,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : [
+					"minecraft:slideshow/horizon1.png",
+					"minecraft:slideshow/horizon2.png"
+							],
+				"displayDuration" : 4,
+				"fadeDuration" : 20,
+				"shuffle" : false
+            }
+        }
+    }
+}
