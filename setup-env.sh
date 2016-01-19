@@ -8,11 +8,7 @@ FORGE_UNIVERSAL=forge-$VERSION-universal.jar
 
 echo eula=true > eula.txt
 
-if [[ ! -f ./server.properties ]]; then
-    echo level-type=$PROPERTY_LEVEL_TYPE > server.properties
-fi
-
-if [[ ! -f ./minecraft_server.$MINECRAFT_VERSION.jar ]]; then
+if [[ ! -f ./$FORGE_UNIVERSAL ]]; then
     wget http://files.minecraftforge.net/maven/net/minecraftforge/forge/$VERSION/$FORGE_INSTALLER
     echo $FORGE_INSTALLER_SHA1 $FORGE_INSTALLER | sha1sum -c
     java -jar $FORGE_INSTALLER --installServer
