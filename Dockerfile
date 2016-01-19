@@ -13,8 +13,8 @@ ENV PROPERTY_LEVEL_TYPE BIOMESOP
 
 RUN /setup-env.sh
 
-ENV JVM_XMS 16g
-ENV JVM_XMX 8g
+ENV JVM_XMS 8g
+ENV JVM_XMX 16g
 ENV JVM_ADDITIONAL -XX:+UseStringCache -XX:+OptimizeStringConcat -XX:+UseCompressedStrings -XX:+AggressiveOpts -XX:+UseParNewGC -XX:+UseConcMarkSweepGC
 ENV RCON_PASSWORD nopass
 
