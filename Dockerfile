@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM java:openjdk-8-jre
 MAINTAINER Ilya Pirogov <ilja.pirogov@gmail.com>
 
 WORKDIR /var/app/horizon
