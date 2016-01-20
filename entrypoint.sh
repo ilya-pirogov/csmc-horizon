@@ -5,4 +5,4 @@ FORGE_UNIVERSAL=forge-$VERSION-universal.jar
 
 sed -ir "s/rcon\.password=.*/rcon.password=$RCON_PASSWORD/g" server.properties
 
-java -jar $FORGE_UNIVERSAL -Xms=$JVM_XMS -Xmx=$JVM_XMX $JVM_ADDITIONAL nogui
+java -jar $JVM_ADDITIONAL -Xms=$JVM_XMS -Xmx=$JVM_XMX $FORGE_UNIVERSAL nogui
