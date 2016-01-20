@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jre
+FROM java:openjdk-8-jdk
 MAINTAINER Ilya Pirogov <ilja.pirogov@gmail.com>
 
 WORKDIR /var/app/horizon
@@ -14,13 +14,14 @@ RUN /setup-env.sh
 
 ENV JVM_XMS 8g
 ENV JVM_XMX 16g
-ENV JVM_ADDITIONAL -XX:+UseStringCache -XX:+OptimizeStringConcat -XX:+UseCompressedStrings -XX:+AggressiveOpts -XX:+UseParNewGC -XX:+UseConcMarkSweepGC
+ENV JVM_ADDITIONAL -Djava.rmi.server.hostname='136.243.145.143' -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=3333 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -XX:+UseStringCache -XX:+OptimizeStringConcat -XX:+UseCompressedStrings -XX:+AggressiveOpts -XX:+UseParNewGC -XX:+UseConcMarkSweepGC
 ENV RCON_PASSWORD nopass
 
 ADD ./entrypoint.sh /
 
 VOLUME /var/app/horizon/world
 
+EXPOSE 3333
 EXPOSE 25565
 EXPOSE 25575
 
