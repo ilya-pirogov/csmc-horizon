@@ -14,10 +14,13 @@ RUN /setup-env.sh
 
 ENV JVM_XMS 8g
 ENV JVM_XMX 16g
-ENV JVM_ADDITIONAL -XX:+UseStringCache -XX:+OptimizeStringConcat -XX:+UseCompressedStrings -XX:+AggressiveOpts -XX:+UseParNewGC -XX:+UseConcMarkSweepGC
+ENV JVM_ADDITIONAL -XX:+UseStringCache -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:+UseParNewGC -XX:+UseConcMarkSweepGC
 ENV JMX_HOSTNAME ""
 ENV JMX_PORT 3333
 ENV RCON_PASSWORD nopass
+
+ENV TWITCH_CHANNEL mjramon
+ENV TWITCH_TOKEN ""
 
 ADD ./entrypoint.sh /
 

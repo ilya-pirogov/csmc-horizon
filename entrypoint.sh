@@ -8,5 +8,7 @@ if [[ ! -z $JMX_HOSTNAME ]]; then
 fi
 
 sed -ir "s/rcon\.password=.*/rcon.password=$RCON_PASSWORD/g" server.properties
+sed -ir "s/S:channel=.*/S:channel=$TWITCH_CHANNEL/g" config/ForgeTwitchSubWhitelist.cfg
+sed -ir "s/S:twitchToken=.*/S:twitchToken=$TWITCH_TOKEN/g" config/ForgeTwitchSubWhitelist.cfg
 
 java -jar $JMX_ARGS $JVM_ADDITIONAL -Xms$JVM_XMS -Xmx$JVM_XMX $FORGE_UNIVERSAL nogui
