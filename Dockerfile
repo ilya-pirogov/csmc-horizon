@@ -25,6 +25,7 @@ ENV TWITCH_TOKEN ""
 ADD ./entrypoint.sh /
 
 VOLUME /var/app/horizon/world
+VOLUME /var/app/horizon/config
 
 EXPOSE 3333
 EXPOSE 25565
