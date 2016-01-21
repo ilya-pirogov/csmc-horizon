@@ -22,6 +22,7 @@ ENV RCON_PASSWORD nopass
 ENV TWITCH_CHANNEL mjramon
 ENV TWITCH_TOKEN ""
 
+ADD ./mcrcon /usr/local/bin/
 ADD ./entrypoint.sh /
 
 VOLUME /var/app/horizon/world
