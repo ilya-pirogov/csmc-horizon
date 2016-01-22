@@ -10,6 +10,7 @@ fi
 if [[ ! -z $RCON_PASSWORD ]]; then
     echo '#!/bin/bash' > /usr/local/bin/rcon
     echo "mcrcon -H 127.0.0.1 -p $RCON_PASSWORD \"\$@\"" >> /usr/local/bin/rcon
+    echo "exit 0" >> /usr/local/bin/rcon
     chmod +x /usr/local/bin/rcon
 fi
 
