@@ -52,7 +52,7 @@ export default class Setup extends React.Component {
 
     handleSetup() {
         this.setState({error: null});
-        Meteor.loginWithTwitch({requestPermissions: ["user_read", "channel_check_subscription"]}, (error, result) => {
+        Meteor.loginWithTwitch({requestPermissions: ["user_read", "channel_check_subscription", "channel_subscriptions"]}, (error, result) => {
             console.log(error, result);
             if (error) {
                 this.setState({error: 'Не удалось авторизоваться в Twitch'});
