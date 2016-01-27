@@ -1,0 +1,1 @@
+export const channels = new Mongo.Collection('channels');
