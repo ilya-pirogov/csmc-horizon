@@ -64,7 +64,6 @@ export class TwitchApi {
     }
 
     hasSubscription(username) {
-        return true;
         try {
             return this.request(`/channels/${this.user.services.twitch.name}/subscriptions/${username}`);
         } catch(ex) {
