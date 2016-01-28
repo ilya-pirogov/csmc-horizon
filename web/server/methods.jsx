@@ -1,5 +1,5 @@
 import {TwitchApi} from './twitch-api.jsx';
-import {channels} from '../lib/collections.jsx';
+import {channels, whitelist} from '../lib/collections.jsx';
 
 
 Meteor.methods({
@@ -23,9 +23,18 @@ Meteor.methods({
     },
 
     setUsername(username) {
-        const activeUser = Meteor.users.findOne(this.userId);
-        if (!activeUser) {
-            throw new Meteor.Error(403);
+        if (!this.isSimulation) {
+            this.unblock();
+        
+            const activeUser = Meteor.users.findOne(this.userId);
+            if (!activeUser) {
+                throw new Meteor.Error(403);
+            }
+        
+            const user = whitelist.findOne({username});
+            if (user) {
+                throw new Meteor.Error(403, "Это имя уже используется");
+            }
         }
 
         Meteor.users.update(this.userId, {$set: {'profile.mcUsername': username}});
