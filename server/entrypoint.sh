@@ -14,6 +14,12 @@ if [[ ! -z $RCON_PASSWORD ]]; then
     chmod +x /usr/local/bin/rcon
 fi
 
+for json in banned-ips banned-players ops whitelist; do
+  if [[ ! -f settings/$json.json ]]; then
+    cp original/$json.json settings/$json.json
+  fi
+done
+
 sed -ir "s/rcon\.password=.*/rcon.password=$RCON_PASSWORD/g" server.properties
 sed -ir "s/S:channel=.*/S:channel=$TWITCH_CHANNEL/g" config/ForgeTwitchSubWhitelist.cfg
 sed -ir "s/S:twitchToken=.*/S:twitchToken=$TWITCH_TOKEN/g" config/ForgeTwitchSubWhitelist.cfg
