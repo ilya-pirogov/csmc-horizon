@@ -33,6 +33,7 @@ EXPOSE 25565
 EXPOSE 25575
 
 ADD ./horizon/*.json /var/app/horizon/original/
+ADD ./horizon/ForgeEssentials /var/app/horizon/original/ForgeEssentials
 ADD ./horizon/server.properties /var/app/horizon/
 ADD ./horizon/config /var/app/horizon/config
 ADD ./horizon/mods /var/app/horizon/mods

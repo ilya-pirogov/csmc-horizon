@@ -1,0 +1,163 @@
+# --- ModList ---
+# Generated: 2-1-2016 (Server time)
+# Change the location of this file in main.cfg
+
+Minecraft Coder Pack;9.05;http://mcp.ocean-labs.de/
+Forge Mod Loader;7.10.99.99;https://github.com/MinecraftForge/FML/wiki
+Minecraft Forge;10.13.4.1558;http://MinecraftForge.net/forum/index.php/topic,5.0.html
+AppliedEnergistics2 Core;rv2-stable-10;http://ae2.ae-mod.info
+CodeChicken Core;1.0.7.47;http://www.minecraftforum.net/topic/909223
+1.2;IvToolkit;http://www.minecraftforum.net/topic/563257-172
+MobiusCore;1.2.5;profmobius.blogspot.com
+Not Enough Items;1.0.5.120;http://www.minecraftforum.net/topic/909223
+OpenEye;0.6;http://openmods.info/
+StarMinerCore;0.9.9;
+OpenModsCore;0.9;http://openmods.info/
+CoFH ASM;000;
+MC Discord;2.0.0;http://www.technicpack.net/
+FastCraft;1.22;http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820
+debug;1.0;
+bspkrsCore;6.16;http://www.minecraftforum.net/topic/1114612-/
+Treecapitator;1.7.10;http://www.minecraftforum.net/topic/1009577-/
+Applied Energistics 2;rv2-stable-10;http://ae2.ae-mod.info
+BD Lib;1.9.2.104;bdew.net/mods/
+AE2 Stuff;0.5.0.56;bdew.net
+AgriCraft;1.7.10-1.4.6-hotfix;http://minecraft.curseforge.com/mc-mods/225635-agricraft/files
+AnimationAPI;1.2.4;http://www.minecraftforum.net/topic/1850860-/
+AppleCore;1.1.0;
+Armourer's Workshop;1.7.10-0.38.1.98;https://github.com/RiskyKen/Armourers-Workshop
+Plushie Wrapper;0.0.0;
+CoFH Core;1.7.10R3.0.3;http://www.teamcofh.com
+AutoPackager;1.5.7;http://minecraft.curseforge.com/projects/autopackager
+Better Foliage;2.0;
+BiblioCraft;1.11.4;http://www.bibliocraftmod.com
+BiomeTweaker;2.0.167;http://minecraft.curseforge.com/mc-mods/228895-biometweaker
+Biomes O' Plenty;2.1.0;www.minecraftforum.net/topic/1495041-
+BiblioWoods Biomes O'Plenty Edition;1.9;http://www.bibliocraftmod.com
+Thermal Foundation;1.7.10R1.2.0;http://www.teamcofh.com
+Thermal Expansion;1.7.10R4.0.3B1;http://www.teamcofh.com
+Big Reactors;0.4.3A;http://www.big-reactors.com
+QmunityLib;1.0;
+Blue Power;0.2.962;http://minecraft.curseforge.com/mc-mods/223099-blue-power
+Bookshelf;1.0.4.172;http://minecraft.curseforge.com/projects/bookshelf
+Carpenter's Blocks;3.3.7;www.carpentersblocks.com
+Catwalks Mod;2.0.3;
+Legacy Catwalk Compat;x.x.x;
+ChickenChunks;1.3.4.19;http://www.minecraftforum.net/topic/909223
+Railcraft;9.8.0.0;http://railcraft.info/
+Forge Multipart;1.2.0.345;https://github.com/Chicken-Bones/ForgeMultipart
+Chisel 2;2.5.1.44;http://www.minecraftforum.net/forums/thread/1294901
+DrCyano's Lootable Bodies;1.3.6;
+PTRModelLib;1.0.0;
+Decocraft;2.2.1;http://minecraft.curseforge.com/mc-mods/79616-decocraft2
+Dungeon Mobs;4.1.3;http://www.minecraftforum.net/topic/231082-
+EiraMoticons;1.2.83;http://minecraft.curseforge.com/mc-mods/230849-eiramoticons
+Enchanting Plus;4.0.0..73;http://goo.gl/tW92J
+EnderCore;1.7.10-0.2.0.31_beta;http://ci.tterrag.com/job/EnderCore
+MineFactory Reloaded;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+Waila;1.5.10;
+Ender IO;1.7.10-2.3.0.422_beta;http://enderio.com
+Ender IO Addons;0.10.3;http://enderioaddons.loenwind.info
+EnderStorage;1.4.7.38;http://www.minecraftforum.net/topic/909223
+EnderTech;1.7.10-0.3.2.405;https://github.com/carrotengineer/EnderTech
+Extra Cells 2;2.3.7;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289077-ae-add-on-m3gas-extracells-2-1-x-2-2-x
+Extra Utilities;1.2.12;
+Fairy Lights;1.4.0;
+MineTweaker 3;3.0.10;http://minetweaker3.powerofbytes.com
+FluxedCrystals2;1.0.7;
+Fog Nerf;1.7.10-0.3;http://minecraft.curseforge.com/mc-mods/221849-fognerf
+Forge Essentials;1.4.3;https://github.com/ForgeEssentials/ForgeEssentialsMain
+Fossils and Archeology Revival;1.7.10 Build 7.2.1;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2398119
+Garden Containers;1.7.10-1.7.0;http://www.jaquadro.com/
+Garden Core;1.7.10-1.7.0;http://www.jaquadro.com/
+Garden Stuff;1.7.10-1.7.0;http://www.jaquadro.com/
+Garden Trees;1.7.10-1.7.0;http://www.jaquadro.com/
+Growthcraft;1.7.10-2.4.0;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2505072-growthcraft-community-edition-proper-1-7-10
+Growthcraft Cellar;1.7.10-2.4.0;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2505072-growthcraft-community-edition-proper-1-7-10
+Growthcraft Apples;1.7.10-2.4.0;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2505072-growthcraft-community-edition-proper-1-7-10
+Growthcraft Bamboo;1.7.10-2.4.0;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2505072-growthcraft-community-edition-proper-1-7-10
+Growthcraft Bees;1.7.10-2.4.0;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2505072-growthcraft-community-edition-proper-1-7-10
+Growthcraft Fishtrap;1.7.10-2.4.0;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2505072-growthcraft-community-edition-proper-1-7-10
+Growthcraft Grapes;1.7.10-2.4.0;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2505072-growthcraft-community-edition-proper-1-7-10
+Growthcraft Hops;1.7.10-2.4.0;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2505072-growthcraft-community-edition-proper-1-7-10
+Growthcraft Rice;1.7.10-2.4.0;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2505072-growthcraft-community-edition-proper-1-7-10
+HelpFixer;1.0.7;http://minecraft.curseforge.com/mc-mods/223797-helpfixer
+Immersive Engineering;0.7.1.2;
+Immersive Integration;0.6.6;https://github.com/UnwrittenFun/ImmersiveIntegration
+Inventory Tweaks;1.59-dev-152-cf6e263;https://github.com/Kobata/inventory-tweaks
+Iron Chest;6.0.62.742;http://www.minecraftforum.net/topic/981855-
+JABBA;1.2.1;http://mobiusstrip.eu/wiki/Jabba
+JourneyMap;5.1.3;http://journeymap.info
+LunatriusCore;1.1.2.21;http://mc.lunatri.us/
+MalisisCore;1.7.10-0.14.0;http://github.com/Ordinastie/MalisisCore
+Malisis' Doors;1.7.10-1.13.0;http://github.com/ordinastie
+Matter Overdrive;0.4.1;http://simeon.co.vu/Mods/MatterOverdrive/
+Mekanism;8.1.7;
+MekanismGenerators;8.1.7;
+MekanismTools;8.1.7;
+Millénaire;6.0.0;
+Minechem;5.0.5.406;http://www.minechemmod.com/
+MFR Compat: Applied Energistics;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: Atum;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: BackTools;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: BuildCraft;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: Chococraft;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: ExtraBiomes;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: Forestry;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: ForgeMicroblock;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: IC2;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: Mystcraft;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat ProjectRed;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: Railcraft;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: Sufficient Biomes;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: Thaumcraft;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: Thermal Expansion;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: Tinkers' Construct;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: TwilightForest;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+MFR Compat: Vanilla;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
+Morpheus;1.7.10-1.6.20;http://www.curse.com/mc-mods/Minecraft/morpheus
+Mo'Skeletons;1.0;
+�9MrCrayfish's Furniture Mod;3.4.8;http://http://www.mrcrayfish.com/furniture.php?p=2
+Mutant Creatures;1.4.9;http://www.minecraftforum.net/topic/1336132-/
+NEI Addons;1.12.13.38;bdew.net/neiaddons
+NEI Addons: Developer Tools;1.12.13.38;
+NEI Addons: Applied Energistics 2;1.12.13.38;
+NEI Addons: Botany;1.12.13.38;
+NEI Addons: Forestry;1.12.13.38;http://bdew.net/neiaddons/
+NEI Addons: Crafting Tables;1.12.13.38;http://bdew.net/neiaddons/
+NEI Addons: Ex Nihilo;1.12.13.38;http://bdew.net/neiaddons/
+NEI Integration;1.1.1;
+Not Enough Resources;0.1.0.ManuallyBuilt;
+OpenMods;0.9;http://openmods.info/
+OpenBlocks;1.5;http://www.openperipheral.info
+Open Modular Turrets;2.1.8-199;
+MapWriter;2.1.2;
+Opis;1.2.5;
+Random Things;2.2.4;http://minecraft.curseforge.com/mc-mods/59816-random-things
+Recurrent Complex;0.9.6.3;
+Redstone Arsenal;1.7.10R1.1.1;http://www.teamcofh.com
+Simply Jetpacks;1.5.3;http://www.curse.com/mc-mods/minecraft/simply-jetpacks
+RFDrills;1.7.3;
+RFTools;4.20;
+RikMuld's Core;1.0c;rikmuld.com
+Roguelike Dungeons;1.4.4;github.com/Greymerk/minecraft-roguelike
+Schematica;1.7.6.130;http://mc.lunatri.us/
+SimpleLabels;@VERSION@;
+Solar Flux;1.7.10-0.8b;
+The Spice of Life;1.3.0;http://www.minecraftforum.net/topic/2688857-
+Starminer Mod;0.9.9;
+The Camping Mod 2;2.1g;rikmuld.com
+Thermal Dynamics;1.7.10R1.1.0;http://www.teamcofh.com
+Translocator;1.1.2.16;http://www.minecraftforum.net/topic/909223
+Waila Harvestability;1.1.6;
+WAILA Plugins;MC1.7.10-0.2.0-23;http://ci.tterrag.com/job/WAILAPlugins/
+What Are We Looking At;1.3.3;http://www.darkhax.net/wawla.html
+WR-CBE Core;1.4.1.9;http://www.minecraftforum.net/topic/909223
+WR-CBE Addons;1.4.1.9;http://www.minecraftforum.net/topic/909223
+WR-CBE Logic;1.4.1.9;http://www.minecraftforum.net/topic/909223
+Zetta Industries;1.1;http://www.zi.bymarcin.com
+Minecraft Multipart Plugin;1.2.0.345;https://github.com/Chicken-Bones/ForgeMultipart
+Another One Bites The Dust;2.9.0;
+Dense Ores;1.0;
+Forge Microblocks;1.2.0.345;https://github.com/Chicken-Bones/ForgeMultipart
+BiomeTweaker Core;2.0.167;
