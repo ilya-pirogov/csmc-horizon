@@ -20,6 +20,7 @@ for json in banned-ips banned-players ops whitelist; do
   fi
 done
 
+mkdir -p settings/ForgeEssentials
 cp -r original/ForgeEssentials/* settings/ForgeEssentials/
 
 sed -ir "s/rcon\.password=.*/rcon.password=$RCON_PASSWORD/g" server.properties
