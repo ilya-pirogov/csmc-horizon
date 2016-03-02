@@ -20,8 +20,10 @@ for json in banned-ips banned-players ops whitelist; do
   fi
 done
 
-mkdir -p settings/ForgeEssentials
-cp -r original/ForgeEssentials/* settings/ForgeEssentials/
+for folder in ForgeEssentials armourersWorkshop; do
+  mkdir -p settings/$folder
+  cp -r original/$folder/* settings/$folder/
+done
 
 sed -ir "s/rcon\.password=.*/rcon.password=$RCON_PASSWORD/g" server.properties
 sed -ir "s/S:channel=.*/S:channel=$TWITCH_CHANNEL/g" config/ForgeTwitchSubWhitelist.cfg

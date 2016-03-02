@@ -10,6 +10,7 @@ echo eula=true > eula.txt
 
 if [[ ! -f ./$FORGE_UNIVERSAL ]]; then
     mkdir settings
+    ln -s settings/armourersWorkshop armourersWorkshop
     ln -s settings/ForgeEssentials ForgeEssentials
     ln -s settings/banned-ips.json banned-ips.json
     ln -s settings/banned-players.json banned-players.json
