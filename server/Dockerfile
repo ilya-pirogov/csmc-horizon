@@ -37,5 +37,6 @@ ADD ./horizon/ForgeEssentials /var/app/horizon/original/ForgeEssentials
 ADD ./horizon/server.properties /var/app/horizon/
 ADD ./horizon/config /var/app/horizon/config
 ADD ./horizon/mods /var/app/horizon/mods
+ADD ./horizon/scripts /var/app/horizon/scripts
 
 ENTRYPOINT /entrypoint.sh
