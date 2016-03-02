@@ -12,7 +12,7 @@
     "off @p": [
       "permcheck fe.commands.god.others",
       "permset user %@ clear fe.protection.damageby.*",
-      "echo God mode turned OFF for @1"
+      "echo God mode turned OFF for @0"
     ],
     "off": [
       "permset user @player clear fe.protection.damageby.*",
@@ -20,9 +20,9 @@
     ],
     "on @p": [
       "permcheck fe.commands.god.others",
-      "permset user @1 deny fe.protection.damageby.*",
+      "permset user @0 deny fe.protection.damageby.*",
       "$*/heal @player",
-      "echo God mode turned ON for @1"
+      "echo God mode turned ON for @0"
     ],
     "on": [
       "permcheck fe.commands.god",

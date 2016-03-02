@@ -4,67 +4,72 @@
 `checkTimeout <id> [error msg...]`  
 Check, if a timeout finished. Use %s in error message to print the remaining time.
 
-## permchecksilent
-`permchecksilent <perm>`  
-Permission check (without error message)
+## confirm
+Send confirmation message to the player
+
+## confirmall
+Send confirmation message to all players
+
+## echo
+Send message without any special formatting to the player
+
+## echoall
+Send message without any special formatting to all players
+
+## error
+Send error message to the player
+
+## errorall
+Send error message to all players
+
+## fail
+Send error message to the player and fail script execution
+
+## failall
+Send error message to all players and fail script execution
+
+## notify
+Send notification message to the player
 
 ## notifyall
 Send notification message to all players
-
-## teleport
-`teleport <player> <to-player>`  
-`teleport <player> <x> <y> <z> [dim]`
-
-## permcheck
-`permcheck <perm> [error message...]`  
-Permission check (with error message)
 
 ## pay
 `pay <amount> [to-player]`  
 Make the player pay some amount of money and fail, if he can't afford it
 
-## echo
-Send confirmation message to the player
+## permcheck
+`permcheck <perm> [value] [error message...]`  
+Permission check (with error message). Use `true` or `false` as value for normal permission checks (default value is `true`).Other values will cause a permission-property check.
 
-## error
-Send error message to the player
+## permchecksilent
+`permchecksilent <perm> [value] [error message...]`  
+Permission check (without error message). Use `true` or `false` as value for normal permission checks (default value is `true`).Other values will cause a permission-property check.
+
+## permset
+Modify permissions (like /p command)
+
+## random
+`random <success-chance-in-percent>`  
+This method will randomly success or fail.  
+If it fails, the rest of the script will not be executed any more.
 
 ## starttimeout
 `startTimeout <id> <t>`  
 Start a timeout
 
-## notify
-Send notification message to the player
+## teleport
+`teleport <player> <to-player>`  
+`teleport <player> <x> <y> <z> [dim]`
 
-## errorall
-Send error message to all players
-
-## confirm
-Send confirmation message to the player
+## timeout
+`timeout <delay> <command...>`  
+Make another command run after a delay (in ms).  
+Can be used with pattern commands to make more complex timed scripts.
 
 ## warn
 Send warning message to the player
 
-## fail
-Send error message to the player and fail script execution
-
-## confirmall
-Send confirmation message to all players
-
-## failall
-Send error message to all players and fail script execution
-
-## !permchecksilent
-`!permchecksilent <perm>`  
-Negated permission check (without error message)
-
 ## warnall
 Send warning message to all players
-
-## !permcheck
-`!permcheck <perm> [error message...]`  
-Negated permission check (with error message)
-
-## permset
-Modify permissions (like /p command)
 

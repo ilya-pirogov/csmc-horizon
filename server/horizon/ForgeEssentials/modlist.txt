@@ -1,5 +1,5 @@
 # --- ModList ---
-# Generated: 2-1-2016 (Server time)
+# Generated: 29-1-2016 (Server time)
 # Change the location of this file in main.cfg
 
 Minecraft Coder Pack;9.05;http://mcp.ocean-labs.de/
@@ -51,7 +51,7 @@ DrCyano's Lootable Bodies;1.3.6;
 PTRModelLib;1.0.0;
 Decocraft;2.2.1;http://minecraft.curseforge.com/mc-mods/79616-decocraft2
 Dungeon Mobs;4.1.3;http://www.minecraftforum.net/topic/231082-
-EiraMoticons;1.2.83;http://minecraft.curseforge.com/mc-mods/230849-eiramoticons
+EiraMoticons;1.2.84;http://minecraft.curseforge.com/mc-mods/230849-eiramoticons
 Enchanting Plus;4.0.0..73;http://goo.gl/tW92J
 EnderCore;1.7.10-0.2.0.31_beta;http://ci.tterrag.com/job/EnderCore
 MineFactory Reloaded;1.7.10R2.8.0;http://minecraft.curseforge.com/mc-mods/minefactory-reloaded/
@@ -66,7 +66,7 @@ Fairy Lights;1.4.0;
 MineTweaker 3;3.0.10;http://minetweaker3.powerofbytes.com
 FluxedCrystals2;1.0.7;
 Fog Nerf;1.7.10-0.3;http://minecraft.curseforge.com/mc-mods/221849-fognerf
-Forge Essentials;1.4.3;https://github.com/ForgeEssentials/ForgeEssentialsMain
+Forge Essentials;1.4.4;https://github.com/ForgeEssentials/ForgeEssentials
 Fossils and Archeology Revival;1.7.10 Build 7.2.1;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2398119
 Garden Containers;1.7.10-1.7.0;http://www.jaquadro.com/
 Garden Core;1.7.10-1.7.0;http://www.jaquadro.com/
@@ -152,6 +152,7 @@ Translocator;1.1.2.16;http://www.minecraftforum.net/topic/909223
 Waila Harvestability;1.1.6;
 WAILA Plugins;MC1.7.10-0.2.0-23;http://ci.tterrag.com/job/WAILAPlugins/
 What Are We Looking At;1.3.3;http://www.darkhax.net/wawla.html
+WorldEdit;6.1.1-SNAPSHOT;
 WR-CBE Core;1.4.1.9;http://www.minecraftforum.net/topic/909223
 WR-CBE Addons;1.4.1.9;http://www.minecraftforum.net/topic/909223
 WR-CBE Logic;1.4.1.9;http://www.minecraftforum.net/topic/909223

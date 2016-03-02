@@ -1,6 +1,6 @@
 #// --------- PERMISSIONS LIST ITEMS ------- \\#
-#// --------------- 02.02 07:20 ------------ \\#
-#// ----------- Total amount: 16558 --------- \\#
+#// --------------- 29.02 23:01 ------------ \\#
+#// ----------- Total amount: 18739 --------- \\#
 #// ---------------------------------------- \\#
 fe.protection.craft.*                                                                            # (default: true) Allow crafting of items. Not necessarily works with modded crafting tables
 fe.protection.craft.AgriCraft.clipper.*                                                          # (default: true) CRAFT Clipper
@@ -7358,6 +7358,7 @@ fe.protection.inventory.zettaindustries.hook.*                                  
 fe.protection.inventory.zettaindustries.hookBullet.*                                             # (default: true) INVENTORY Hook Bullet
 fe.protection.inventory.zettaindustries.lightningfirework.*                                      # (default: true) INVENTORY Lightning rocket
 fe.protection.inventory.zettaindustries.zettaindustries.fakeitem.*                               # (default: true) INVENTORY item.null.name
+fe.protection.inventorygroup                                                                     # (default: default) Inventory group property - can be set to any identifier to separate inventories for certain regions
 fe.protection.use.*                                                                              # (default: true) Allow using items
 fe.protection.use.AgriCraft.clipper.*                                                            # (default: true) USE Clipper
 fe.protection.use.AgriCraft.clipping.*                                                           # (default: true) USE Clipping

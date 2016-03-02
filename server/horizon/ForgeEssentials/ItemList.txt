@@ -1,5 +1,5 @@
 # --- Block/Item List ---
-# Generated: 2-1-2016 (Server time)
+# Generated: 29-1-2016 (Server time)
 
 tile.stone
 tile.grass
@@ -2119,7 +2119,6 @@ tile.railGunTurret
 tile.leverBlock
 tile.translocator
 tile.craftingGrid
-tile.variableredstoneemitter
 tile.sulfurousacid
 tile.sulfurblock
 tile.batterywall
@@ -2129,9 +2128,10 @@ tile.batteryelectrode
 tile.batterycontroller
 tile.batterycomputerport
 tile.blockGraphite
-tile.charcoalblock
 tile.blockwire
 tile.blockcontroller
+tile.variableredstoneemitter
+tile.charcoalblock
 tile.rfmeterblock
 tile.denseores:block0
 tile.denseores:block1
@@ -4371,9 +4371,9 @@ item.wrcbe_addons:rep
 item.wrcbe_addons:psniffer
 item.wrcbe_logic:wirelesspart
 item.acidbucket
-item.lightningfirework
 item.hook_bullet
 item.hook
+item.lightningfirework
 item.aobd.crushedGold
 item.aobd.crushedIron
 item.aobd.crushedCopper
@@ -6418,7 +6418,6 @@ tile.railGunTurret
 tile.leverBlock
 tile.translocator
 tile.craftingGrid
-tile.variableredstoneemitter
 tile.sulfurousacid
 tile.sulfurblock
 tile.batterywall
@@ -6428,9 +6427,10 @@ tile.batteryelectrode
 tile.batterycontroller
 tile.batterycomputerport
 tile.blockGraphite
-tile.charcoalblock
 tile.blockwire
 tile.blockcontroller
+tile.variableredstoneemitter
+tile.charcoalblock
 tile.rfmeterblock
 tile.denseores:block0
 tile.denseores:block1
