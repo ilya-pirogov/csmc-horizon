@@ -19,5 +19,5 @@ http
 service-configuration
 accounts-ui
 
-jameslefrere:twitch
-jameslefrere:accounts-twitch
+twitch
+accounts-twitch
