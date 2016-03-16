@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<malisisdoors:item.curtain_black>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -24,6 +25,7 @@
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<malisisdoors:item.curtain_black>, [<ExtraUtilities:curtains>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
