@@ -10,12 +10,12 @@
     "use_separate_thread": true
   },
   "commands": {
-    "back": true,
-    "home": true,
+    "back": false,
+    "home": false,
     "name_admin": "admin",
     "player_can_use_spawnpoint": false,
     "spawn": true,
-    "tplast": true,
+    "tplast": false,
     "warp": true
   },
   "general": {
@@ -70,9 +70,9 @@
     ],
     "forced_chunk_security": "-",
     "forced_explosions": "-",
-    "max_claims": 16,
+    "max_claims": 100,
     "max_homes": 1,
-    "max_loaded_chunks": 3,
+    "max_loaded_chunks": 1,
     "offline_chunkloader_timer": 24.0,
     "show_rank": true
   },
