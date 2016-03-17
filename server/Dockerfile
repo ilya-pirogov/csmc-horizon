@@ -38,5 +38,6 @@ ADD ./horizon/server.properties /var/app/horizon/
 ADD ./horizon/config /var/app/horizon/config
 ADD ./horizon/mods /var/app/horizon/mods
 ADD ./horizon/scripts /var/app/horizon/scripts
+ADD ./horizon/local /var/app/horizon/local
 
 ENTRYPOINT /entrypoint.sh
