@@ -1,11 +1,16 @@
 {
-  "players":
-  {
-    "bb1e08b-a734-4cfd-8b02-48e8dab429ea": "latmod"
-  },
-  "badges":
-  {
-    "latmod": "http://latvianmodder.github.io/images/badges/latmod.png",
-    "ftb": "http://latvianmodder.github.io/images/badges/ftb.png"
-  }
+	"players":
+	{
+		"eadec55eb3c24de98ca3c761c536d742": "craftshow",
+		"10ea128d2bc8480b920d5891e7a082b1": "craftshow",
+		"b1b9cfa6081a4a118eca212cb0ff9f21": "craftshow"
+	},
+	
+	"badges":
+	{
+		"craftshow": "http://horizoncraft.net/badges/craftshow.png",
+		"combros": "http://horizoncraft.net/badges/combros.png",
+		"horizon": "http://horizoncraft.net/badges/horizon.png",
+		"pioneer": "http://horizoncraft.net/badges/pioneer.png"
+	}
 }
