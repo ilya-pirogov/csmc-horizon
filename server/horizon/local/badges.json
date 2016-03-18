@@ -9,9 +9,9 @@
 	
 	"badges":
 	{
-		"craftshow": "http://horizoncraft.net/badges/craftshow.png",
-		"combros": "http://horizoncraft.net/badges/combros.png",
-		"horizon": "http://horizoncraft.net/badges/horizon.png",
-		"pioneer": "http://horizoncraft.net/badges/pioneer.png"
+		"craftshow": "http://craftshow-horizon.s3.amazonaws.com/badges/craftshow.png",
+		"combros": "http://craftshow-horizon.s3.amazonaws.com/badges/combros.png",
+		"horizon": "http://craftshow-horizon.s3.amazonaws.com/badges/horizon.png",
+		"pioneer": "http://craftshow-horizon.s3.amazonaws.com/badges/pioneer.png"
 	}
 }
