@@ -10,8 +10,8 @@
     "use_separate_thread": true
   },
   "commands": {
-    "back": false,
-    "home": false,
+    "back": true,
+    "home": true,
     "name_admin": "admin",
     "player_can_use_spawnpoint": false,
     "spawn": true,
