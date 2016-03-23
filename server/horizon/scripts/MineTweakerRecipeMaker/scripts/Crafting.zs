@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<modJ_StarMiner:starbed>);
 recipes.remove(<OpenComputers:item:44>);
 recipes.remove(<malisisdoors:item.curtain_black>);
 
