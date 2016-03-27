@@ -70,7 +70,7 @@
     ],
     "forced_chunk_security": "-",
     "forced_explosions": "-",
-    "max_claims": 100,
+    "max_claims": 200,
     "max_homes": 1,
     "max_loaded_chunks": 1,
     "offline_chunkloader_timer": 24.0,
