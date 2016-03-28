@@ -31,5 +31,6 @@ recipes.addShapeless(<malisisdoors:item.curtain_black>, [<ExtraUtilities:curtain
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<rftools:dimensionalShardItem> * 4, [[<ore:nuggetEnderium>, <minecraft:quartz>, <ore:nuggetEnderium>], [<ore:crystalChargedCertusQuartz>, <ore:dustDiamond>, <ore:crystalChargedCertusQuartz>], [<ore:nuggetEnderium>, <minecraft:quartz>, <ore:nuggetEnderium>]]);
 recipes.addShaped(<mo:android_pill>, [[<ore:molecule_methamphetamine>, <mo:rouge_android_part>, <ore:element_Uut>], [<mo:rouge_android_part:1>, <mo:rouge_android_part:3>, <mo:rouge_android_part:1>], [<mo:rouge_android_part:2>, <mo:matter_container_full>, <mo:rouge_android_part:2>]]);
 recipes.addShaped(<mo:sniper_scope>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <mo:isolinear_circuit:1>], [<minecraft:glass_pane>, <mo:forcefield_emitter>, <minecraft:glass_pane>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <ore:ingotIron>]]);
