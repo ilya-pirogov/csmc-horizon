@@ -15,6 +15,14 @@
 recipes.remove(<modJ_StarMiner:starbed>);
 recipes.remove(<OpenComputers:item:44>);
 recipes.remove(<malisisdoors:item.curtain_black>);
+recipes.remove(<OpenComputers:item:62>);
+recipes.remove(<Railcraft:machine.alpha:13>);
+recipes.remove(<Railcraft:machine.alpha>);
+recipes.remove(<Railcraft:machine.alpha:2>);
+recipes.remove(<Railcraft:machine.beta:10>);
+recipes.remove(<MineFactoryReloaded:machine.2:10>);
+recipes.remove(<MineFactoryReloaded:machine.2:10>);
+
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
