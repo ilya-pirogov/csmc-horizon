@@ -36,6 +36,11 @@ recipes.remove(<MineFactoryReloaded:machine.2:10>);
 // ================================================================================
 //#MARKER ADD SHAPELESS
 recipes.addShapeless(<malisisdoors:item.curtain_black>, [<ExtraUtilities:curtains>]);
+recipes.addShapeless(<BiomesOPlenty:saplings:11>, [<ore:molecule_cellulose>, <minechem:minechemMolecule:147>]);
+recipes.addShapeless(<BiomesOPlenty:saplings:8>, [<ore:molecule_cellulose>, <minechem:minechemMolecule:149>]);
+recipes.addShapeless(<BiomesOPlenty:saplings:1>, [<ore:molecule_cellulose>, <minechem:minechemMolecule:148>]);
+recipes.addShapeless(<BiomesOPlenty:saplings:14>, [<ore:molecule_cellulose>, <ore:molecule_aluminiumPhosphate>]);
+
 
 // ================================================================================
 //#MARKER ADD SHAPED
