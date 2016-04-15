@@ -12,6 +12,11 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<Railcraft:machine.epsilon>);
+recipes.remove(<Railcraft:machine.epsilon:3>);
+recipes.remove(<ExtraUtilities:generator.8:11>);
+recipes.remove(<ExtraUtilities:generator.64:11>);
+recipes.remove(<ExtraUtilities:generator:11>);
 recipes.remove(<mo:fusion_reactor_io>);
 recipes.remove(<modJ_StarMiner:starbed>);
 recipes.remove(<OpenComputers:item:44>);
@@ -21,7 +26,6 @@ recipes.remove(<Railcraft:machine.alpha:13>);
 recipes.remove(<Railcraft:machine.alpha>);
 recipes.remove(<Railcraft:machine.alpha:2>);
 recipes.remove(<Railcraft:machine.beta:10>);
-recipes.remove(<MineFactoryReloaded:machine.2:10>);
 recipes.remove(<MineFactoryReloaded:machine.2:10>);
 
 
@@ -36,6 +40,24 @@ recipes.remove(<MineFactoryReloaded:machine.2:10>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:15>, [<mo:decorative.tritanium_plate>, <minecraft:dye:15>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:14>, [<mo:decorative.tritanium_plate>, <minecraft:dye:14>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:13>, [<mo:decorative.tritanium_plate>, <minecraft:dye:13>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:12>, [<mo:decorative.tritanium_plate>, <minecraft:dye:12>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:11>, [<mo:decorative.tritanium_plate>, <minecraft:dye:11>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:10>, [<mo:decorative.tritanium_plate>, <minecraft:dye:10>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:9>, [<mo:decorative.tritanium_plate>, <minecraft:dye:9>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:8>, [<mo:decorative.tritanium_plate>, <minecraft:dye:8>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:7>, [<mo:decorative.tritanium_plate>, <minecraft:dye:7>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:6>, [<mo:decorative.tritanium_plate>, <minecraft:dye:6>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:5>, [<mo:decorative.tritanium_plate>, <minecraft:dye:5>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:4>, [<mo:decorative.tritanium_plate>, <minecraft:dye:4>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:3>, [<mo:decorative.tritanium_plate>, <minecraft:dye:3>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:2>, [<mo:decorative.tritanium_plate>, <minecraft:dye:2>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored:1>, [<mo:decorative.tritanium_plate>, <minecraft:dye:1>]);
+recipes.addShapeless(<mo:decorative.tritanium_plate_colored>, [<mo:decorative.tritanium_plate>, <ore:dyeBlack>]);
+recipes.addShapeless(<ImmersiveEngineering:material:14> * 4, [<camping:parts:1>]);
+
 recipes.addShapeless(<malisisdoors:item.curtain_black>, [<ExtraUtilities:curtains>]);
 recipes.addShapeless(<BiomesOPlenty:saplings:11>, [<ore:molecule_cellulose>, <minechem:minechemMolecule:147>]);
 recipes.addShapeless(<BiomesOPlenty:saplings:8>, [<ore:molecule_cellulose>, <minechem:minechemMolecule:149>]);
@@ -45,6 +67,11 @@ recipes.addShapeless(<BiomesOPlenty:saplings:14>, [<ore:molecule_cellulose>, <or
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<Railcraft:machine.epsilon>, [[<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>]]);
+recipes.addShaped(<Railcraft:machine.epsilon:3>, [[<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>], [<ore:ingotCopper>, <ore:blockDiamond>, <ore:ingotCopper>], [<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>]]);
+recipes.addShaped(<Railcraft:machine.epsilon:3>, [[<Railcraft:part.plate>, <ore:ingotCopper>, <Railcraft:part.plate>], [<ore:ingotCopper>, <minecraft:diamond_block>, <ore:ingotCopper>], [<Railcraft:part.plate>, <ImmersiveEngineering:metal>, <Railcraft:part.plate>]]);
+recipes.addShaped(<Railcraft:machine.epsilon>, [[<Railcraft:part.plate>, <ore:ingotCopper>, <Railcraft:part.plate>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<Railcraft:part.plate>, <ImmersiveEngineering:metal>, <Railcraft:part.plate>]]);
+
 recipes.addShaped(<rftools:dimensionalShardItem> * 4, [[<ore:nuggetEnderium>, <minecraft:quartz>, <ore:nuggetEnderium>], [<ore:crystalChargedCertusQuartz>, <ore:dustDiamond>, <ore:crystalChargedCertusQuartz>], [<ore:nuggetEnderium>, <minecraft:quartz>, <ore:nuggetEnderium>]]);
 recipes.addShaped(<mo:android_pill>, [[<ore:molecule_methamphetamine>, <mo:rouge_android_part>, <ore:element_Uut>], [<mo:rouge_android_part:1>, <mo:rouge_android_part:3>, <mo:rouge_android_part:1>], [<mo:rouge_android_part:2>, <mo:matter_container_full>, <mo:rouge_android_part:2>]]);
 recipes.addShaped(<mo:sniper_scope>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <mo:isolinear_circuit:1>], [<minecraft:glass_pane>, <mo:forcefield_emitter>, <minecraft:glass_pane>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <ore:ingotIron>]]);
