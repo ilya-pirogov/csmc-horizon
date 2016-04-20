@@ -13,7 +13,7 @@
     "back": true,
     "home": true,
     "name_admin": "admin",
-    "player_can_use_spawnpoint": false,
+    "player_can_use_spawnpoint": true,
     "spawn": true,
     "tplast": false,
     "warp": true
