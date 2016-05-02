@@ -40,6 +40,12 @@ recipes.remove(<MineFactoryReloaded:machine.2:10>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<mo:decorative.matter_tube> * 32, [<mo:decorative.tritanium_plate>, <mo:decorative.tritanium_plate>, <mo:decorative.tritanium_plate>, <mo:decorative.tritanium_plate>, <mo:matter_container_full>.transformReplace(<mo:matter_container>), <mo:decorative.tritanium_plate>, <mo:decorative.tritanium_plate>, <mo:decorative.tritanium_plate>, <mo:decorative.tritanium_plate>]);
+recipes.addShapeless(<mo:decorative.matter_tube:1>, [<mo:decorative.matter_tube>]);
+recipes.addShapeless(<mo:decorative.matter_tube>, [<mo:decorative.matter_tube:1>]);
+recipes.addShapeless(<mo:matter_plasma>, [<mo:decorative.engine_exhaust_plasma>]);
+recipes.addShapeless(<bluepower:tungsten_block> * 4, [<ore:blockTungsten>, <ore:blockTungsten>, <ore:blockTungsten>, <ore:blockTungsten>]);
+
 recipes.addShapeless(<mo:decorative.tritanium_plate_colored:15>, [<mo:decorative.tritanium_plate>, <minecraft:dye:15>]);
 recipes.addShapeless(<mo:decorative.tritanium_plate_colored:14>, [<mo:decorative.tritanium_plate>, <minecraft:dye:14>]);
 recipes.addShapeless(<mo:decorative.tritanium_plate_colored:13>, [<mo:decorative.tritanium_plate>, <minecraft:dye:13>]);
@@ -67,6 +73,8 @@ recipes.addShapeless(<BiomesOPlenty:saplings:14>, [<ore:molecule_cellulose>, <or
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<mo:decorative.engine_exhaust_plasma> * 32, [[<ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>], [<ore:dustPyrotheum>, <ore:ingotYellorium>, <ore:dustPyrotheum>], [<ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>]]);
+
 recipes.addShaped(<Railcraft:machine.epsilon>, [[<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>]]);
 recipes.addShaped(<Railcraft:machine.epsilon:3>, [[<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>], [<ore:ingotCopper>, <ore:blockDiamond>, <ore:ingotCopper>], [<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>]]);
 recipes.addShaped(<Railcraft:machine.epsilon:3>, [[<Railcraft:part.plate>, <ore:ingotCopper>, <Railcraft:part.plate>], [<ore:ingotCopper>, <minecraft:diamond_block>, <ore:ingotCopper>], [<Railcraft:part.plate>, <ImmersiveEngineering:metal>, <Railcraft:part.plate>]]);
