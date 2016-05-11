@@ -73,6 +73,9 @@ recipes.addShapeless(<BiomesOPlenty:saplings:14>, [<ore:molecule_cellulose>, <or
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<Growthcraft|Bees:grc.beeHive>, [[<ore:materialHoneycomb>, <ore:materialHoneycomb>, <ore:materialHoeycomb>], [<ore:materialHoneycomb>, <Growthcraft|Bees:grc.beeBox>, <ore:materialHoneycomb>], [<ore:materialHoneycomb> <ore:materialHoneycomb>, <ore:materialHoneycomb>]]);
+recipes.addShaped(<Growthcraft|Bees:grc.honeyCombFilled>, [[<ore:molecule_shikimicAcid>, <ore:molecule_sucrose>, <oremolecule_asparticAcid>], [<ore:molecule_glucose>, <ore:molecule_water>, <ore:molecule_glucose>], [<ore:molecule_maliccid>, <ore:molecule_sucrose>, <ore:molecule_gallicacid>]]);
+
 recipes.addShaped(<mo:decorative.engine_exhaust_plasma> * 32, [[<ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>], [<ore:dustPyrotheum>, <ore:ingotYellorium>, <ore:dustPyrotheum>], [<ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>]]);
 
 recipes.addShaped(<Railcraft:machine.epsilon>, [[<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>]]);
