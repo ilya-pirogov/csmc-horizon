@@ -29,6 +29,7 @@ VOLUME /var/app/horizon/world
 VOLUME /var/app/horizon/config
 
 EXPOSE 3333
+EXPOSE 3334
 EXPOSE 25565
 EXPOSE 25575
 
